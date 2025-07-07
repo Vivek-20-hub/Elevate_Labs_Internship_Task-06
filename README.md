@@ -2,9 +2,9 @@
 
 # Sales Trends Analysis Using Aggregations
 
--- Project: Data-Analyst-Internship-at-ElevateLabs-Task-6
--- Dataset Source: [Kaggle - sales_data.csv]
--- Cleaned Data: cleaned_sales_data.csv (from Task 1)
+**Dataset:** `cleaned_dataset.csv`  
+**Data Cleaning and Preprocessing:** `Elevate-Labs-Internship-Task-6`  
+**Cleaned Dataset:** `cleaned_dataset.csv`
 -- Now we use the cleaned_sales_data.csv to perform sales trends analysis using aggregation. Here is a brief overview of the process:
 
 # Using the DB Browser for SQLite, create a new database.
@@ -22,7 +22,7 @@
 
 ## Monthly Revenue and Order Volume for 2015
 
---Query:
+**Query:**
 
 ```sql
 
@@ -36,10 +36,11 @@ WHERE order_date BETWEEN '2015-01-01' AND '2015-12-31'
 GROUP BY order_year, order_month
 ORDER BY order_year, order_month;
 ```
--- Output:
+ **Output:*
 
 ## Monthly Revenue and Order Volume for 2016
-Query:
+**Query:**
+
 ```sql
 SELECT
 strftime('%Y', order_date) AS order_year,
@@ -55,12 +56,13 @@ order_year, order_month
 ORDER BY
 order_year, order_month;
 ```
--- Output:
+**Output:**
 
 
 ## Monthly Revenue and Order Volume for 2017
 
--- Query:
+**Query:**
+
 ```sql
 SELECT
 strftime('%Y', order_date) AS order_year,
@@ -76,10 +78,11 @@ order_year, order_month
 ORDER BY
 order_year, order_month;
 ```
--- Output:
+ **Output:**
 
 ## Monthly Revenue and Order volume in 2018
--- Query:
+**Query:**
+
 ```sql
 SELECT
 strftime('%Y', order_date) AS order_year,
@@ -96,11 +99,12 @@ ORDER BY
 order_year, order_month;
 ```
 
--- Output:
+**Output:**
 
 
 ## Top 5 months with most revenue
--- Query:
+**Query:**
+
 ```sql
 
 SELECT
@@ -117,10 +121,12 @@ monthly_revenue DESC
 LIMIT 5;
 ```
 
--- Output:
+**Output:**
 
 ## Year-wise revenue (2015 - 2018)
--- Query:
+
+**Query:**
+
 ```sql
 SELECT
 strftime('%Y', order_date) AS order_year,
@@ -133,5 +139,6 @@ order_year
 ORDER BY
 yearly_revenue DESC;
 ```
--- Output:
+**Output:**
+
 
