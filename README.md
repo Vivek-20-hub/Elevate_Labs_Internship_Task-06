@@ -22,7 +22,7 @@
 
 ## Monthly Revenue and Order Volume for 2015
 
--- Query:
+--Query:
 
 ```sql
 
