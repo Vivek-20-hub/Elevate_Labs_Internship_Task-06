@@ -5,7 +5,7 @@
 **Dataset:** `cleaned_dataset.csv`  
 **Data Cleaning and Preprocessing:** `Elevate-Labs-Internship-Task-6`  
 **Cleaned Dataset:** `cleaned_dataset.csv`
--- Now we use the cleaned_sales_data.csv to perform sales trends analysis using aggregation. Here is a brief overview of the process:
+Now we use the cleaned_sales_data.csv to perform sales trends analysis using aggregation. 
 
 # Using the DB Browser for SQLite, create a new database.
 -- Import the cleaned_sales_data.csv into the database as a table.
