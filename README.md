@@ -22,7 +22,7 @@ Using the DB Browser for SQLite, create a new database.
 
 Query:
 
--- 🔹 Monthly Revenue and Order Volume in 2015
+--  Monthly Revenue and Order Volume in 2015
 SELECT 
     strftime('%Y', order_date) AS order_year, 
     strftime('%m', order_date) AS order_month, 
@@ -35,11 +35,11 @@ WHERE
 GROUP BY 
     order_year, order_month
 ORDER BY 
-    order_year, order_month;
-    
-    Output:
+    order_year, order_month; --
+  
 
--- 🔹 Monthly Revenue and Order Volume in 2016
+
+--  Monthly Revenue and Order Volume in 2016
 SELECT 
     strftime('%Y', order_date) AS order_year, 
     strftime('%m', order_date) AS order_month, 
