@@ -13,7 +13,9 @@ Now we use the cleaned_sales_data.csv to perform sales trends analysis using agg
 - Observe and note the output.
 - Save the queries in a SQL file.
 - SQL Queries and Outputs for Sales Trends Analysis using Aggregations
-- Monthly Revenue and Order Volume in 2015
+- Monthly Revenue and Order Volume in 2015,2016,2017,2018.
+- Top Months Revenue OF ALL YEARS.
+- YEAR WISE REVENUE OF ALL YEAR.
 
 
 -- =========================================
